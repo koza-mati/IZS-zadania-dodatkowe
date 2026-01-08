@@ -167,7 +167,7 @@ def random_walk_final_positions(M=5000, N=50, p=0.5):
         'theo_std': float(sigma)
     }
 
-# ===== URUCHOMIENIE DEMO =====
+# ===== Uruchomienie Symulacji =====
 results = {}
 results['exp'] = clt_for_exponential(M=4000, N=50, lam=1.0)
 results['cauchy'] = clt_for_cauchy(M=4000, N=50, x0=0.0, gamma=1.0)

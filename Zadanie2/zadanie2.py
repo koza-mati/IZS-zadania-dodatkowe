@@ -114,7 +114,7 @@ def plot_sample_trajectories(p=0.11, N=500, M_show=12, filename='trajectories_p0
     plt.savefig(filename, dpi=160)
     plt.close()
 
-# ===== Uruchomienie symulacji zgodnie z zadaniem =====
+# ===== Uruchomienie symulacji =====
 summary = {}
 summary['mean_ci_p0_11'] = plot_mean_ci_vs_N(p=0.11, Ns=(20,50,100,200,500,1000), M=6000, filename='mean_ci_p0_11.png')
 summary['hist_var_p_N200'] = plot_histograms_var_p(N=200, ps=(0.11,0.5,0.89), M=8000, filename='hist_var_p_N200.png')
